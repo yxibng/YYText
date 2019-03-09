@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11E2270622341BEC00DDCCDC /* UIViewController+NavigationHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2270522341BEC00DDCCDC /* UIViewController+NavigationHeight.m */; };
 		D91054861F3735D20007F224 /* Animated image support.txt in Resources */ = {isa = PBXBuildFile; fileRef = D910547B1F3735D20007F224 /* Animated image support.txt */; };
 		D91054871F3735D20007F224 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D910547D1F3735D20007F224 /* YYAnimatedImageView.m */; };
 		D91054881F3735D20007F224 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D910547F1F3735D20007F224 /* YYFrameImage.m */; };
@@ -82,6 +83,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11E2270422341BEC00DDCCDC /* UIViewController+NavigationHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationHeight.h"; sourceTree = "<group>"; };
+		11E2270522341BEC00DDCCDC /* UIViewController+NavigationHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationHeight.m"; sourceTree = "<group>"; };
 		D910547B1F3735D20007F224 /* Animated image support.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Animated image support.txt"; sourceTree = "<group>"; };
 		D910547C1F3735D20007F224 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
 		D910547D1F3735D20007F224 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
@@ -419,6 +422,8 @@
 		D94EE98D1F37304200F37AD6 /* YYTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				11E2270422341BEC00DDCCDC /* UIViewController+NavigationHeight.h */,
+				11E2270522341BEC00DDCCDC /* UIViewController+NavigationHeight.m */,
 				D910550F1F37367B0007F224 /* YYTextExample.h */,
 				D91055101F37367B0007F224 /* YYTextExample.m */,
 				D91055111F37367B0007F224 /* YYTextExampleHelper.h */,
@@ -566,6 +571,7 @@
 				D910551E1F37367B0007F224 /* YYTextBindingExample.m in Sources */,
 				D91054D61F3735E50007F224 /* YYTextWeakProxy.m in Sources */,
 				D91054C41F3735E50007F224 /* YYTextInput.m in Sources */,
+				11E2270622341BEC00DDCCDC /* UIViewController+NavigationHeight.m in Sources */,
 				D91054871F3735D20007F224 /* YYAnimatedImageView.m in Sources */,
 				D91054D21F3735E50007F224 /* UIView+YYText.m in Sources */,
 				D91054C61F3735E50007F224 /* YYTextLayout.m in Sources */,

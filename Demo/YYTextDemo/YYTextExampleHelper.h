@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewController+NavigationHeight.h"
 
 @interface YYTextExampleHelper : NSObject
 
